@@ -22,7 +22,7 @@ def add_record_to_batch(record, batch, batches, current_batch_size, max_batch_si
     return batch, batches, current_batch_size
 
 
-def process_batch(records, 
+def batch_processor(records, 
                   max_record_size=MAX_RECORD_SIZE, 
                   max_batch_size=MAX_BATCH_SIZE, 
                   max_number_of_records=MAX_NUMBER_OF_RECORDS):
