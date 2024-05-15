@@ -14,17 +14,14 @@ The input for the library is a list of records, and the output is a list of batc
 
 ## Project Structure
 
-/project_root
-│
-├── /src
-│ ├── init.py
-│ ├── config.py # Configuration file for setting limits for records.
-│ ├── utils.py # Utility functions for record validation and processing.
-│ └── batch_processor.py # Main module to process records into batches.
-│
-├── /tests # Test directory for unit tests.
-│ ├── TODO
-│ 
-│
-├── main.py # Example script demonstrating how to use the library.
-└── requirements.txt # Required Python packages. (TODO)
+- **src/**: Source code for the library.
+  - `__init__.py`:
+  - `config.py`: Configuration file for record and batch limits.
+  - `utils.py`: Utility functions for record validation and processing.
+  - `batch_processor.py`: Main module to process records into batches.
+
+- **tests/**: TODO
+
+- **main.py**: Example script demonstrating how to use the library.
+
+- **requirements.txt**: Required Python packages. (TODO)
