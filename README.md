@@ -1,5 +1,16 @@
 # Batch Processing Library
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Project Structure](#project-structure)
+4. [Getting Started](#getting-started)
+    - [Clone the Repository](#step-1-clone-the-repo)
+    - [Install Dependencies](#step-2-install-the-required-packages)
+    - [Running the Application](#step-3-running-the-application)
+5. [Testing](#testing)
+    - [Running the Tests](#running-the-tests)
+
 ## Overview
 
 This Python library is designed to process an array of records of variable sizes and split them into batches suitable for delivery to a system. Each batch is optimized according to predefined limits on the size and number of records, ensuring compatibility with system constraints.
@@ -24,4 +35,34 @@ The input for the library is a list of records, and the output is a list of batc
 
 - **main.py**: Example script demonstrating how to use the library.
 
-- **requirements.txt**: Required Python packages. (TODO)
+- **requirements.txt**: Required Python packages.
+
+## Getting Started
+
+Before you begin, ensure you have Python installed on your system.
+
+**Step 1: Clone the repo**
+
+```
+$ git clone https://github.com/AlanenR/batch-processing
+
+$ cd ./batch-processing
+
+```
+
+**Step 2: Install the required packages by running:**
+  
+    - $ pip install -r requirements.txt
+
+**Step 3: Running the application:**
+
+    - $ Run python main.py to start the application.
+
+
+## Testing
+
+The project is using `pytest` to run our automated tests.
+
+**Running the Tests:**
+
+TODO
