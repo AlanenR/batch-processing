@@ -61,8 +61,12 @@ $ cd ./batch-processing
 
 ## Testing
 
-The project is using `pytest` to run our automated tests.
+The project is using `pytest` to run automated tests.
 
 **Running the Tests:**
 
 TODO
+
+## Future improvements
+
+More comprehensive testing, improve performance, and additional error handling scenarios.
