@@ -1,10 +1,13 @@
-from config import MAX_RECORD_SIZE, MAX_BATCH_SIZE, MAX_NUMBER_OF_RECORDS
-from utils import validate_record, add_record_to_batch
+from src.config import MAX_RECORD_SIZE, MAX_BATCH_SIZE, MAX_NUMBER_OF_RECORDS
+from src.utils import validate_record, add_record_to_batch
 
 def batch_processor(records, 
                   max_record_size=MAX_RECORD_SIZE, 
                   max_batch_size=MAX_BATCH_SIZE, 
                   max_number_of_records=MAX_NUMBER_OF_RECORDS):
+    '''
+    Processes the records into batches adhering to the defined limits.
+    '''
     batch = [] 
     batches = []
     current_batch_size = 0
