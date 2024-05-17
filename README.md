@@ -31,7 +31,11 @@ The input for the library is a list of records, and the output is a list of batc
   - `utils.py`: Utility functions for record validation and processing.
   - `batch_processor.py`: Main module to process records into batches.
 
-- **tests/**: TODO
+- **tests/**: 
+  - `__init__.py`:
+  - `test_batch_process`: Tests for batch_processor
+  - `utils.py`: Tests for utils
+  - `test_data.py`: Mock data for testing.
 
 - **main.py**: Example script demonstrating how to use the library.
 
@@ -65,7 +69,15 @@ The project is using `pytest` to run automated tests.
 
 **Running the Tests:**
 
-TODO
+To run all tests, navigate to the project directory and simply use the `pytest` command:
+
+    $ pytest
+
+This command will discover and execute all test cases in the `tests/` directory.
+
+For example, to run tests in the `test_batch_processor.py` file, use:
+
+    $ pytest tests/test_batch_processor.py
 
 ## Future improvements
 
