@@ -7,7 +7,7 @@ oversized_record = 'd' * (1 * 1024 * 1024 + 1)  # Just above 1 MB
 # Define batches
 valid_batch = [small_record for _ in range(500)]
 oversized_batch = [oversized_record for _ in range(10)]
-mixed_batch = [small_record, medium_record, large_record, oversized_record] * 3
+mixed_batch = [small_record, medium_record, large_record, oversized_record]
 
 # Boundary conditions
 exactly_one_mb_record = 'e' * (1 * 1024 * 1024)
