@@ -43,12 +43,12 @@ The input for the library is a list of records, and the output is a list of batc
 
 ## Getting Started
 
-Before you begin, ensure you have Python installed on your system.
+Requirements: Python 3.x.
 
 **Step 1: Clone the repo**
 
 ```
-$ git clone https://github.com/AlanenR/batch-processing
+$  git clone https://github.com/AlanenR/batch-processing
 
 $ cd ./batch-processing
 
@@ -56,11 +56,11 @@ $ cd ./batch-processing
 
 **Step 2: Install the required packages by running:**
   
-    - $ pip install -r requirements.txt
+    - $ pip3 install -r requirements.txt
 
 **Step 3: Running the application:**
 
-    - $ Run python main.py to start the application.
+    - $ Run python3 main.py to start the application.
 
 
 ## Testing
@@ -82,3 +82,28 @@ For example, to run tests in the `test_batch_processor.py` file, use:
 ## Future improvements
 
 More comprehensive testing, improve performance, and additional error handling scenarios.
+
+#### Testing Enhancements
+
+1. Improve Test Readability:
+
+- Split test to smaller, more focused tests
+- Create custom functions for repeated checks
+
+#### Code Structure and Naming
+
+2. Improve Module Structure:
+- Move all related code in one module
+
+3. Enhance Naming Conventions:
+- Rename batch_processor to a more descriptive name
+
+#### Functional Purity and Abstraction
+
+4. Secure Functional Purity:
+
+- Refactor `the add_record_to_batch` function
+- Explore alternative ways to abstract the batch handling e.g OOP approach
+
+
+
